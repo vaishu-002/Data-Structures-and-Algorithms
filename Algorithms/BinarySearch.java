@@ -11,7 +11,7 @@ public class BinarySearch {
         search(arr, start, end, n);
 
         
-
+  /// a wrong code .. to be modified
         
     }
     public static void search(int arr[],int start, int end, int n){
@@ -34,7 +34,7 @@ public class BinarySearch {
                 end=arr.length-1;
             }
             System.out.println(arr[start]+" "+arr[end]+" "+n+" "+mid);
-            search(arr,start,end,n);
+            search(arr,start,end,n);   
         }
         
 
